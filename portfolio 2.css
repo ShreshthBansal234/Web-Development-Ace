@@ -1,0 +1,97 @@
+.home{
+    display: flex;
+    background: url("ace\ bg\ portfolio.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+
+.home-content .text-1{
+    font-size: 27px;
+    color: #ffffff;
+    margin: 10px;
+     
+}
+
+.home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: rgb(20, 220, 160);
+    margin-bottom: 10px;
+}
+.home-content .text-2 span{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.home-content .text-3{
+    color: #20d0a7;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.home-content .text-4{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.home-content a{
+    display: inline-block;
+    background: #19cf8c;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    transition: all 0.5s ease;
+}
+.home-content a:hover{
+    color: #f9f9f9;
+    background: none;
+    box-shadow: 10px 10px #16d083;
+}
+
+
+.about-content .right{
+    width: 45%;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    margin: 180px;
+    object-fit: cover;
+    border-radius: 100px;
+    filter: drop-shadow(10px 2px  #13dfa9);
+    transition: all 1s;
+    border-radius: 50%;
+
+}
+
+img:hover{
+    cursor: pointer;
+    filter: drop-shadow(15px 2px #15c69c);
+    transform: scale(1.20);
+    border-radius: 0%;
+}
+
+a{text-decoration: none;}

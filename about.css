@@ -1,0 +1,55 @@
+body{
+    background: url("ace\ bg\ portfolio.jpg") ;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+.skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.text span{
+    color: #1aca8d;
+}
+.skills-content .left p{
+    text-align: justify;
+}
+.skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #1bc598;
+}
+.skills-content .right .html::before{
+    width: 100%;
+}
+.skills-content .right .css::before{
+    width: 50%;
+}
+
+a{text-decoration: none;}

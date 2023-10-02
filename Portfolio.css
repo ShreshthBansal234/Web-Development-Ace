@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    padding-left: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    background-color: #000000;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 25px;
+    transition: color 0.3 ease;
+}
+.menu li a:hover{
+    color: #2bd3b5;
+}
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.about, 
+.contact, 
+footer{
+    font-family: 'Poppins', sans-serif;
+}
+.about-content,
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1104px) {
+    .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media(max-width: 750px){
+    .home-a{
+        display: none;
+    }
+}
+@media(max-width: 700px){
+    .contact-a{
+        display: none;
+    }
+}
+@media(max-width: 550px){
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu li a{
+        font-size: 0.9em;
+        margin: 10px;
+}
+}
+@media(max-width: 450px){
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu li a{
+        font-size: 0.9em;
+        margin: 5px;
+}
+}
+@media (max-width: 947px){
+    .home-content .text-2{
+        font-size: 70px;
+    }
+    .home-content .text-3{
+        font-size: 35px;
+    }
+    .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .about-content .column{
+        width: 100%;
+    }
+    .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about-content .right{
+        flex: 100%;
+    }
+    .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
